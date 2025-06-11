@@ -1,17 +1,18 @@
-import React from 'react'
+import { ThemeToggle } from "../components/ThemeToggle";
+import { StarBackground } from "../components/StarBackground";
 
-const Home = () => {
+export const Home = () => { 
   return (
     <div>
-        {/* Theme Toggle */}
+      {/* Theme Toggle */}
+      <ThemeToggle />
+      {/* Background Effects */}
+      <StarBackground />
 
-        {/* Background Effects */}
+      {/* Navbar */}
 
-        {/* Navbar */}
-
-        {/* Main Content */}
+      {/* Main Content */}
     </div>
-  )
-}
+  );
+};
 
-export default Home
